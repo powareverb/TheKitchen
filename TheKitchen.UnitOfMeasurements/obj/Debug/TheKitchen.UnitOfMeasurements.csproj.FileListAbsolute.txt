@@ -1,0 +1,7 @@
+D:\DevProjects\TheKitchen\TheKitchen.UnitOfMeasurements\bin\Debug\TheKitchen.UnitOfMeasurements.dll
+D:\DevProjects\TheKitchen\TheKitchen.UnitOfMeasurements\bin\Debug\TheKitchen.UnitOfMeasurements.pdb
+D:\DevProjects\TheKitchen\TheKitchen.UnitOfMeasurements\obj\Debug\ResolveAssemblyReference.cache
+D:\DevProjects\TheKitchen\TheKitchen.UnitOfMeasurements\obj\Debug\TheKitchen.UnitOfMeasurements.dll
+D:\DevProjects\TheKitchen\TheKitchen.UnitOfMeasurements\obj\Debug\TheKitchen.UnitOfMeasurements.pdb
+D:\DevProjects\TheKitchen\TheKitchen.UnitOfMeasurements\bin\Debug\Phoenix.Core.dll
+D:\DevProjects\TheKitchen\TheKitchen.UnitOfMeasurements\bin\Debug\Phoenix.Core.pdb

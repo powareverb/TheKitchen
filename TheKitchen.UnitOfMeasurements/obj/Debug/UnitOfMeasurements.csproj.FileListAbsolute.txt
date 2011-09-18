@@ -1,0 +1,5 @@
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurements\bin\Debug\UnitOfMeasurements.dll
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurements\bin\Debug\UnitOfMeasurements.pdb
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurements\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurements\obj\Debug\UnitOfMeasurements.dll
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurements\obj\Debug\UnitOfMeasurements.pdb

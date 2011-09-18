@@ -1,0 +1,24 @@
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\UnitOfMeasurementsTest.dll
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\UnitOfMeasurementsTest.pdb
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\Moq.dll
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\UnitOfMeasurements.dll
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\xunit.dll
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\xunit.xml
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\UnitOfMeasurements.pdb
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\Moq.pdb
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\Moq.xml
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\obj\Release\ResolveAssemblyReference.cache
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\obj\Release\UnitOfMeasurementsTest.dll
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\obj\Release\UnitOfMeasurementsTest.pdb
+C:\Users\darnell\Desktop\Working Directory\oss\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\UnitOfMeasurementsTest.dll
+C:\Users\darnell\Desktop\Working Directory\oss\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\UnitOfMeasurementsTest.pdb
+C:\Users\darnell\Desktop\Working Directory\oss\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\Moq.dll
+C:\Users\darnell\Desktop\Working Directory\oss\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\UnitOfMeasurements.dll
+C:\Users\darnell\Desktop\Working Directory\oss\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\xunit.dll
+C:\Users\darnell\Desktop\Working Directory\oss\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\xunit.xml
+C:\Users\darnell\Desktop\Working Directory\oss\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\UnitOfMeasurements.pdb
+C:\Users\darnell\Desktop\Working Directory\oss\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\Moq.pdb
+C:\Users\darnell\Desktop\Working Directory\oss\PaintingEstimator\UnitOfMeasurementsTest\bin\Release\Moq.xml
+C:\Users\darnell\Desktop\Working Directory\oss\PaintingEstimator\UnitOfMeasurementsTest\obj\Release\ResolveAssemblyReference.cache
+C:\Users\darnell\Desktop\Working Directory\oss\PaintingEstimator\UnitOfMeasurementsTest\obj\Release\UnitOfMeasurementsTest.dll
+C:\Users\darnell\Desktop\Working Directory\oss\PaintingEstimator\UnitOfMeasurementsTest\obj\Release\UnitOfMeasurementsTest.pdb

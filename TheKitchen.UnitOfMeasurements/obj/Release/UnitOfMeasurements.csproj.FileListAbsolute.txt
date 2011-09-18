@@ -1,0 +1,10 @@
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurements\bin\Release\UnitOfMeasurements.dll
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurements\bin\Release\UnitOfMeasurements.pdb
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurements\obj\Release\ResolveAssemblyReference.cache
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurements\obj\Release\UnitOfMeasurements.dll
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurements\obj\Release\UnitOfMeasurements.pdb
+C:\Users\darnell\Desktop\Working Directory\oss\PaintingEstimator\UnitOfMeasurements\bin\Release\UnitOfMeasurements.dll
+C:\Users\darnell\Desktop\Working Directory\oss\PaintingEstimator\UnitOfMeasurements\bin\Release\UnitOfMeasurements.pdb
+C:\Users\darnell\Desktop\Working Directory\oss\PaintingEstimator\UnitOfMeasurements\obj\Release\ResolveAssemblyReference.cache
+C:\Users\darnell\Desktop\Working Directory\oss\PaintingEstimator\UnitOfMeasurements\obj\Release\UnitOfMeasurements.dll
+C:\Users\darnell\Desktop\Working Directory\oss\PaintingEstimator\UnitOfMeasurements\obj\Release\UnitOfMeasurements.pdb

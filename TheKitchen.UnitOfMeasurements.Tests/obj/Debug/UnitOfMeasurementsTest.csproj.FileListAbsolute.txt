@@ -1,0 +1,12 @@
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Debug\UnitOfMeasurementsTest.dll
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Debug\UnitOfMeasurementsTest.pdb
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Debug\Moq.dll
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Debug\UnitOfMeasurements.dll
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Debug\xunit.dll
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Debug\xunit.xml
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Debug\UnitOfMeasurements.pdb
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Debug\Moq.pdb
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\bin\Debug\Moq.xml
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\obj\Debug\UnitOfMeasurementsTest.dll
+C:\Users\darnell\Desktop\PaintingEstimator\UnitOfMeasurementsTest\obj\Debug\UnitOfMeasurementsTest.pdb
