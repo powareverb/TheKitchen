@@ -9,3 +9,4 @@ D:\DevProjects\TheKitchen\TheKitchen.Web\bin\TheKitchen.Model.Models.dll
 D:\DevProjects\TheKitchen\TheKitchen.Web\bin\TheKitchen.Model.Models.pdb
 D:\DevProjects\TheKitchen\TheKitchen.Web\bin\Phoenix.Core.dll
 D:\DevProjects\TheKitchen\TheKitchen.Web\bin\Phoenix.Core.pdb
+D:\DevProjects\TheKitchen\TheKitchen.Web\obj\Debug\TheKitchen.Web.csprojResolveAssemblyReference.cache
