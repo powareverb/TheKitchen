@@ -65,10 +65,6 @@
       <Project>{6777CAB6-29D4-4B5B-AF29-D5DB39055AAD}</Project>
       <Name>TheKitchen.UnitOfMeasurements</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TheKitchen.Web\TheKitchen.Web.csproj">
-      <Project>{F797F848-4259-460E-BD2C-900A24F0866F}</Project>
-      <Name>TheKitchen.Web</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

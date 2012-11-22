@@ -2,8 +2,8 @@ D:\DevProjects\TheKitchen\TheKitchen.Model\bin\Debug\TheKitchen.Model.Models.dll
 D:\DevProjects\TheKitchen\TheKitchen.Model\bin\Debug\TheKitchen.Model.Models.pdb
 D:\DevProjects\TheKitchen\TheKitchen.Model\bin\Debug\TheKitchen.UnitOfMeasurements.dll
 D:\DevProjects\TheKitchen\TheKitchen.Model\bin\Debug\TheKitchen.UnitOfMeasurements.pdb
-D:\DevProjects\TheKitchen\TheKitchen.Model\obj\Debug\ResolveAssemblyReference.cache
 D:\DevProjects\TheKitchen\TheKitchen.Model\obj\Debug\TheKitchen.Model.Models.dll
 D:\DevProjects\TheKitchen\TheKitchen.Model\obj\Debug\TheKitchen.Model.Models.pdb
 D:\DevProjects\TheKitchen\TheKitchen.Model\bin\Debug\Phoenix.Core.dll
 D:\DevProjects\TheKitchen\TheKitchen.Model\bin\Debug\Phoenix.Core.pdb
+D:\DevProjects\TheKitchen\TheKitchen.Model\obj\Debug\TheKitchen.Model.Models.csprojResolveAssemblyReference.cache

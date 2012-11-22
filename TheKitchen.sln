@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheKitchen.Web", "TheKitchen.Web\TheKitchen.Web.csproj", "{F797F848-4259-460E-BD2C-900A24F0866F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheKitchen.Web.Tests", "TheKitchen.Web.Tests\TheKitchen.Web.Tests.csproj", "{6F5D1B5B-90F4-42E8-8598-7ADE26FCB32E}"

@@ -1,2 +1,1 @@
-﻿<%@ Application CodeBehind="Global.asax.cs" Inherits="TheKitchen.Models.MvcApplication"
-    Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="TheKitchen.Web.MvcApplication" Language="C#" %>

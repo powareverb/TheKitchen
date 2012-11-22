@@ -12,3 +12,4 @@ D:\DevProjects\TheKitchen\TheKitchen.Web.Tests\bin\Debug\TheKitchen.Model.Models
 D:\DevProjects\TheKitchen\TheKitchen.Web.Tests\bin\Debug\TheKitchen.Model.Models.pdb
 D:\DevProjects\TheKitchen\TheKitchen.Web.Tests\bin\Debug\Phoenix.Core.dll
 D:\DevProjects\TheKitchen\TheKitchen.Web.Tests\bin\Debug\Phoenix.Core.pdb
+D:\DevProjects\TheKitchen\TheKitchen.Web.Tests\obj\Debug\TheKitchen.Web.Tests.csprojResolveAssemblyReference.cache
