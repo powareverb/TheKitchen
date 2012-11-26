@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TheKitchen.Converters.CoreConverters.RecipeML
 {
-    class Head
+    public class Head
     {
         public string Title { get; set; }
     }

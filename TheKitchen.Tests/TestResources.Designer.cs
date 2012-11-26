@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TheKitchen.UnitOfMeasurements.Tests {
+namespace TheKitchen.Tests {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace TheKitchen.UnitOfMeasurements.Tests {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TheKitchen.UnitOfMeasurements.Tests.TestResources", typeof(TestResources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TheKitchen.Tests.TestResources", typeof(TestResources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

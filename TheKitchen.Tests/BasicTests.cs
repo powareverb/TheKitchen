@@ -2,7 +2,7 @@
 using TheKitchen.Model.Models;
 using TheKitchen.UnitOfMeasurements;
 
-namespace TheKitchen.Model.Tests
+namespace TheKitchen.Tests
 {
     [TestClass]
     public class BasicTests
