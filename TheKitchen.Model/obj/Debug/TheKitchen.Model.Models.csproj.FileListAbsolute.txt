@@ -7,3 +7,12 @@ D:\DevProjects\TheKitchen\TheKitchen.Model\obj\Debug\TheKitchen.Model.Models.pdb
 D:\DevProjects\TheKitchen\TheKitchen.Model\bin\Debug\Phoenix.Core.dll
 D:\DevProjects\TheKitchen\TheKitchen.Model\bin\Debug\Phoenix.Core.pdb
 D:\DevProjects\TheKitchen\TheKitchen.Model\obj\Debug\TheKitchen.Model.Models.csprojResolveAssemblyReference.cache
+C:\PersProj\TheKitchen\TheKitchen.Model\bin\Debug\TheKitchen.Model.Models.dll
+C:\PersProj\TheKitchen\TheKitchen.Model\bin\Debug\TheKitchen.Model.Models.pdb
+C:\PersProj\TheKitchen\TheKitchen.Model\bin\Debug\TheKitchen.UnitOfMeasurements.dll
+C:\PersProj\TheKitchen\TheKitchen.Model\bin\Debug\Phoenix.Core.dll
+C:\PersProj\TheKitchen\TheKitchen.Model\bin\Debug\TheKitchen.UnitOfMeasurements.pdb
+C:\PersProj\TheKitchen\TheKitchen.Model\bin\Debug\Phoenix.Core.pdb
+C:\PersProj\TheKitchen\TheKitchen.Model\obj\Debug\TheKitchen.Model.Models.csprojResolveAssemblyReference.cache
+C:\PersProj\TheKitchen\TheKitchen.Model\obj\Debug\TheKitchen.Model.Models.dll
+C:\PersProj\TheKitchen\TheKitchen.Model\obj\Debug\TheKitchen.Model.Models.pdb
