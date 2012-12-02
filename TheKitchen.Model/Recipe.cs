@@ -8,5 +8,7 @@
         {
             IngredientsRequired = new RecipeIngredientList();
         }
+
+        public string Title { get; set; }
     }
 }

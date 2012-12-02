@@ -7,5 +7,3 @@ D:\DevProjects\TheKitchen\TheKitchen.UnitOfMeasurements.Tests\obj\Debug\TheKitch
 D:\DevProjects\TheKitchen\TheKitchen.UnitOfMeasurements.Tests\bin\Debug\Phoenix.Core.dll
 D:\DevProjects\TheKitchen\TheKitchen.UnitOfMeasurements.Tests\bin\Debug\Phoenix.Core.pdb
 D:\DevProjects\TheKitchen\TheKitchen.UnitOfMeasurements.Tests\obj\Debug\TheKitchen.UnitOfMeasurements.Tests.csprojResolveAssemblyReference.cache
-D:\DevProjects\TheKitchen\TheKitchen.UnitOfMeasurements.Tests\obj\Debug\TheKitchen.UnitOfMeasurements.Tests.TestResources.resources
-D:\DevProjects\TheKitchen\TheKitchen.UnitOfMeasurements.Tests\obj\Debug\TheKitchen.UnitOfMeasurements.Tests.csproj.GenerateResource.Cache

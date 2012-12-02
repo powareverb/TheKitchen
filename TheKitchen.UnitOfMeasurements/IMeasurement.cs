@@ -47,10 +47,12 @@ namespace TheKitchen.UnitOfMeasurements
         private TValue _baseValue;
 
         protected IUnitFactory<TValue, TUnit> _unitFactory;
+        public Type SelectedUnit;
 
         public MeasurementBase(TUnit unit, TValue unitValue) :
             this(unit.ToBaseValue(unitValue))
         {
+            SelectedUnit = unit.GetType();
         }
 
         public MeasurementBase(TValue baseValue)

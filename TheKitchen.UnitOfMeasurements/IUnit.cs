@@ -15,6 +15,22 @@ namespace TheKitchen.UnitOfMeasurements
         {
             return baseValue * BaseUnitRatio;
         }
+
+        internal bool ParseType(string baseUnitString, string Description, string Suffix)
+        {
+            var killChars = new[] { '(', 's', ')', '.' };
+            baseUnitString = baseUnitString.TrimEnd(killChars);
+            Description = Description.TrimEnd(killChars);
+            Suffix = Suffix.Replace("(", "").Replace(")", "").Replace(".", "");
+
+            if (baseUnitString.Equals(Description.ToLower()))
+                return true;
+
+            if (baseUnitString.Equals(Suffix.ToLower()))
+                return true;
+
+            return false;
+        }
     }
 
     public abstract class Int64UnitBase : NumericUnitBase<long>

@@ -39,5 +39,11 @@ namespace TheKitchen.UnitOfMeasurements
         {
             return "{Value} {Unit}".Inject(new { Value = this.BaseValue, Unit = Litres.Description });
         }
+
+        public override string ToString()
+        {
+            return ToDescription();
+        }
     }
+
 }

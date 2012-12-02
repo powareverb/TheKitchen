@@ -1,4 +1,5 @@
 ﻿using System;
+using Phoenix.Core.String;
 
 namespace TheKitchen.UnitOfMeasurements
 {
@@ -36,7 +37,12 @@ namespace TheKitchen.UnitOfMeasurements
 
         public string ToDescription()
         {
-            throw new NotImplementedException();
+            return "{Value} {Unit}".Inject(new { Value = this.BaseValue, Unit = Litres.Description });
+        }
+
+        public override string ToString()
+        {
+            return ToDescription();
         }
     }
 }

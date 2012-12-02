@@ -72,6 +72,7 @@
     <Compile Include="DurationTest.cs" />
     <Compile Include="LengthTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuantityTest.cs" />
     <Compile Include="VolumeTest.cs" />
     <Compile Include="WeightTest.cs" />
   </ItemGroup>

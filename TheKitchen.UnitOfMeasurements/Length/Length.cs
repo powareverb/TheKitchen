@@ -1,8 +1,9 @@
 ﻿using System;
+using Phoenix.Core.String;
 
 namespace TheKitchen.UnitOfMeasurements
 {
-    public class Length : DoubleTypeMeasurementBase<ILengthUnit>
+    public class Length : DoubleTypeMeasurementBase<ILengthUnit>, IMeasurementValue
     {
         public Length(ILengthUnit unit, double unitValue) :
             base(unit, unitValue) { }
@@ -27,6 +28,11 @@ namespace TheKitchen.UnitOfMeasurements
         protected override IUnitFactory<double, ILengthUnit> BuildUnitFactory()
         {
             return new LengthUnitFactory();
+        }
+
+        public string ToDescription()
+        {
+            return "{Value} {Unit}".Inject(new { Value = this.BaseValue, Unit = Litres.Description });
         }
     }
 }

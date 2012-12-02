@@ -35,5 +35,26 @@ namespace TheKitchen.UnitOfMeasurements.Tests
             Volume cups = Measure.Volume<Cups>(1);
             Assert.AreEqual(250, cups.In<Millilitres>());
         }
+
+        [TestMethod]
+        public void VolumeParsingTest()
+        {
+            var parse = ParseMeasure.Parse("2", "cups");
+            Assert.AreEqual(typeof(Volume), parse.GetType());
+            Volume parsed = parse as Volume; 
+            Assert.AreEqual(2, parsed.In<Cups>());
+
+            var parse2 = ParseMeasure.Parse("1/2", "cup");
+            Assert.AreEqual(typeof(Volume), parse.GetType());
+            Volume parsed2 = parse2 as Volume;
+            Assert.AreEqual(0.5, parsed2.In<Cups>());
+
+            var parse3 = ParseMeasure.Parse("1 1/2", "teaspoons");
+            Assert.AreEqual(typeof(Volume), parse.GetType());
+            Volume parsed3 = parse3 as Volume;
+            Assert.AreEqual(1.5, parsed3.In<Teaspoons>());
+
+        }
+
     }
 }

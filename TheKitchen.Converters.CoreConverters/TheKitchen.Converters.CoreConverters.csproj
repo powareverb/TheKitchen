@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TheKitchen.Converters.CoreConverters</RootNamespace>
     <AssemblyName>TheKitchen.Converters.CoreConverters</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,17 +41,39 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IRecipeConverter.cs" />
-    <Compile Include="RecipeML\Head.cs" />
-    <Compile Include="RecipeML\Recipe.cs" />
-    <Compile Include="RecipeML\RecipeML.cs" />
     <Compile Include="RecipeMLConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecipeML\RecipeML.cs">
+      <DependentUpon>RecipeML.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RecipeML\RecipeML.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecipeML.xsd</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TheKitchen.Model\TheKitchen.Model.Models.csproj">
       <Project>{ac7558f3-28d2-4584-8ef1-0264950ce3b5}</Project>
       <Name>TheKitchen.Model.Models</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TheKitchen.UnitOfMeasurements\TheKitchen.UnitOfMeasurements.csproj">
+      <Project>{6777cab6-29d4-4b5b-af29-d5db39055aad}</Project>
+      <Name>TheKitchen.UnitOfMeasurements</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RecipeML\RecipeML.xsc">
+      <DependentUpon>RecipeML.xsd</DependentUpon>
+    </None>
+    <None Include="RecipeML\RecipeML.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RecipeML.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RecipeML\RecipeML.xss">
+      <DependentUpon>RecipeML.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
