@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Skeleton</id>
+    <version>1.1.1</version>
+    <title>Skeleton Css Framework</title>
+    <authors>Dave Gamache</authors>
+    <owners>Dave Gamache</owners>
+    <projectUrl>http://www.getskeleton.com/</projectUrl>
+    <iconUrl>http://www.getskeleton.com/src/images/apple-touch-icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Skeleton is a small collection of CSS &amp; JS files that can help you rapidly develop sites that look beautiful at any size, be it a 17" laptop screen or an iPhone.</description>
+    <releaseNotes />
+    <copyright>Copyright 2012</copyright>
+    <tags>Skeleton, Css, Framework, Boilerplate, Responsive, Mobile</tags>
+  </metadata>
+</package>

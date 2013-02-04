@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>StaticVoid.Core.Repository</id>
+    <version>1.2.4</version>
+    <title>StaticVoid Repository Framework</title>
+    <authors>Luke McGregor</authors>
+    <owners>Luke McGregor</owners>
+    <licenseUrl>http://www.opensource.org/licenses/lgpl-3.0.html</licenseUrl>
+    <projectUrl>http://blog.staticvoid.co.nz/2011/10/staticvoid-repository-pattern-nuget.html</projectUrl>
+    <iconUrl>http://static.codeigniter.com/design/repository.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>A repository pattern implementation for Code First.
+
+More information about how to use this solution and what the package does can be found on my blog here (http://blog.staticvoid.co.nz/2011/10/staticvoid-repository-pattern-nuget.html)
+Please leave comments and sugguestions in NuGet or on my blog.
+
+The source for this project is avaliable on GitHub at https://github.com/lukemcgregor/StaticVoid.Core.Repository
+
+This is intended for usage with an IoC repository injection pattern. To bind to the repository in Ninject simply use:
+
+   kernel.Bind(typeof(IRepositoryDataSource&lt;&gt;)).To(typeof(DbContextRepositoryDataSource&lt;&gt;));
+   kernel.Bind(typeof(IRepository&lt;&gt;)).To(typeof(SimpleRepository&lt;&gt;));
+
+this will allow you to inject repositories using the form IRepository&lt;T&gt; in your service implementations. Repository will have basic methods implemented for the type to allow crud.</description>
+    <summary>http://blog.staticvoid.co.nz/2011/10/staticvoid-repository-pattern-nuget.html</summary>
+    <releaseNotes>Modified to allow EF 4.3.*</releaseNotes>
+    <copyright>Luke McGregor</copyright>
+    <tags>Repository, EntityFramwork</tags>
+    <dependencies>
+      <dependency id="EntityFramework" version="[4.1, ]" />
+    </dependencies>
+    <references>
+      <reference file="StaticVoid.Core.Repository.dll" />
+    </references>
+  </metadata>
+</package>

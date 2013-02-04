@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using TheKitchen.UnitOfMeasurements;
+using Phoenix.Core.String;
 
 namespace TheKitchen.Model.Models
 {
@@ -13,6 +14,22 @@ namespace TheKitchen.Model.Models
         public void Add(IMeasurementValue value, Ingredient ingredient)
         {
             this.Add(new RecipeIngredient(value, ingredient));
+        }
+
+        public override string ToString()
+        {
+            string ret = "";
+            foreach (var item in this.ToArray())
+            {
+                ret = ret + "{Measure} {Ingredient} ({Preparation})".Inject(
+                    new
+                    {
+                        Measure = item.IngredientMeasure.Measure.ToString(),
+                        Ingredient = item.Ingredient.ToString(),
+                        Preparation = item.Preparation
+                    });
+            }
+            return ret;
         }
     }
 }

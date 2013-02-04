@@ -40,6 +40,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Ninject.3.0.1.10\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Web.Common">
+      <HintPath>..\packages\Ninject.Web.Common.3.0.0.7\lib\net45-full\Ninject.Web.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ninject.Web.Mvc">
+      <HintPath>..\packages\Ninject.MVC3.3.0.0.6\lib\net45-full\Ninject.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="StaticVoid.Core.Repository">
+      <HintPath>..\packages\StaticVoid.Core.Repository.1.2.4\lib\net40\StaticVoid.Core.Repository.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
@@ -110,6 +123,9 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
+    <Reference Include="WebActivator">
+      <HintPath>..\packages\WebActivator.1.5.2\lib\net40\WebActivator.dll</HintPath>
+    </Reference>
     <Reference Include="WebMatrix.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.Data.2.0.20710.0\lib\net40\WebMatrix.Data.dll</HintPath>
@@ -159,10 +175,14 @@
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PantryController.cs" />
+    <Compile Include="Controllers\RecipeBookController.cs" />
+    <Compile Include="Controllers\ShoppingListController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -171,6 +191,23 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="apple-touch-icon-114x114-precomposed.png" />
+    <Content Include="apple-touch-icon-57x57-precomposed.png" />
+    <Content Include="apple-touch-icon-72x72-precomposed.png" />
+    <Content Include="apple-touch-icon-precomposed.png" />
+    <Content Include="apple-touch-icon.png" />
+    <Content Include="Content\handheld.css" />
+    <Content Include="Content\Images\apple-touch-icon-114x114.png" />
+    <Content Include="Content\Images\apple-touch-icon-72x72.png" />
+    <Content Include="Content\Images\apple-touch-icon.png" />
+    <Content Include="Content\Images\favicon.ico" />
+    <Content Include="Content\Skeleton\base.css" />
+    <Content Include="Content\Skeleton\layout.css" />
+    <Content Include="Content\Skeleton\skeleton.css" />
+    <Content Include="Content\Skeleton\_Examples\Form.html" />
+    <Content Include="Content\Skeleton\_Examples\Grid.html" />
+    <Content Include="Content\Skeleton\_Examples\Typography.html" />
+    <Content Include="Content\style.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -228,6 +265,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="robots.txt" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -241,7 +279,12 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\knockout-2.1.0.debug.js" />
     <Content Include="Scripts\knockout-2.1.0.js" />
-    <Content Include="Scripts\modernizr-2.5.3.js" />
+    <Content Include="Scripts\libs\dd_belatedpng.js" />
+    <Content Include="Scripts\libs\jquery-1.5.1.min.js" />
+    <Content Include="Scripts\libs\modernizr-1.7.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\plugins.js" />
+    <Content Include="Scripts\script.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -281,12 +324,46 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
+    <Content Include="Views\Shared\_Html5Boilerplate.cshtml" />
+    <Content Include="Views\Shared\Skeleton.Master" />
+    <Content Include="Views\Shared\_Skeleton.cshtml" />
+    <Content Include="Views\Pantry\Index.cshtml" />
+    <Content Include="Views\RecipeBook\Index.cshtml" />
+    <Content Include="Views\ShoppingList\Index.cshtml" />
+    <Content Include="Views\Pantry\Details.cshtml" />
+    <Content Include="Views\RecipeBook\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Phoenix\Phoenix.Core\Phoenix.Core.csproj">
+      <Project>{9bdf8c91-8170-4e51-9c84-05ab210d70a1}</Project>
+      <Name>Phoenix.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TheKitchen.Converters.CoreConverters\TheKitchen.Converters.CoreConverters.csproj">
+      <Project>{e29773be-7359-4c7e-8df6-9bb9c11acfbb}</Project>
+      <Name>TheKitchen.Converters.CoreConverters</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TheKitchen.Model\TheKitchen.Model.Models.csproj">
+      <Project>{ac7558f3-28d2-4584-8ef1-0264950ce3b5}</Project>
+      <Name>TheKitchen.Model.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TheKitchen.Services\TheKitchen.Services.csproj">
+      <Project>{71944057-be75-4128-b9ee-e78ea533a8f9}</Project>
+      <Name>TheKitchen.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TheKitchen.Storage\TheKitchen.Storage.csproj">
+      <Project>{728191be-6f61-4137-964b-3e6a4f65442d}</Project>
+      <Name>TheKitchen.Storage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TheKitchen.UnitOfMeasurements\TheKitchen.UnitOfMeasurements.csproj">
+      <Project>{6777cab6-29d4-4b5b-af29-d5db39055aad}</Project>
+      <Name>TheKitchen.UnitOfMeasurements</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

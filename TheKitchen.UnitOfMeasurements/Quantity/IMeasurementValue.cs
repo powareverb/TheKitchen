@@ -3,5 +3,6 @@
     public interface IMeasurementValue
     {
         string ToDescription();
+        string ToString();
     }
 }

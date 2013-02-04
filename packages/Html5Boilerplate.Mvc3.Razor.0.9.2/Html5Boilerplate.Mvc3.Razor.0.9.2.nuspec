@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Html5Boilerplate.Mvc3.Razor</id>
+    <version>0.9.2</version>
+    <title>Add HTML5 Boilerplate to MVC 3 (Razor)</title>
+    <authors>Joshua Salwen</authors>
+    <owners>Joshua Salwen</owners>
+    <licenseUrl>http://html5bpnugets.codeplex.com/license</licenseUrl>
+    <projectUrl>http://html5bpnugets.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Add a rock-solid default for HTML5 awesome into an ASP.NET MVC 3 (Razor) Project</description>
+    <summary>Add a rock-solid default for HTML5 awesome into an ASP.NET MVC 3 (Razor) Project</summary>
+    <tags>html, html5, boilerplate, modernizr, mvc 3, razor</tags>
+  </metadata>
+</package>

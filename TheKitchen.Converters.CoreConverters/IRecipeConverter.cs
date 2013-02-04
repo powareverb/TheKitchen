@@ -11,6 +11,6 @@ namespace TheKitchen.Converters.CoreConverters
     {
         Recipe ToRecipe();
 
-        void Load(string recipeML);
+        void Load(string recipeData);
     }
 }

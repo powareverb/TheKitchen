@@ -15,6 +15,27 @@ namespace TheKitchen.Web.Controllers
             return View();
         }
 
+        public ActionResult RecipeBook()
+        {
+            ViewBag.Message = "Your app description page.";
+
+            return View();
+        }
+
+        public ActionResult Pantry()
+        {
+            ViewBag.Message = "Your app description page.";
+
+            return View();
+        }
+
+        public ActionResult ShoppingList()
+        {
+            ViewBag.Message = "Your app description page.";
+
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your app description page.";

@@ -1,0 +1,17 @@
+﻿@model IQueryable<TheKitchen.Model.Models.RecipeBook>
+
+@{
+    ViewBag.Title = "Recipe Books";
+}
+
+<h2>Recipe Books</h2>
+<ul id="album-list">
+    @foreach (var book in Model)
+    {
+        <li><a href="@Url.Action("Details", "RecipeBook",
+                new { id = book.ID })">
+
+            <span>@book.Title</span> </a>
+        </li>
+    }
+</ul>

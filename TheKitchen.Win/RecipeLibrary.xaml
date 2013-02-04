@@ -1,0 +1,9 @@
+﻿<Window x:Class="TheKitchen.Win.RecipeLibrary"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="RecipeLibrary" Height="391" Width="592">
+    <Grid>
+        <DataGrid HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Height="341" Width="327" SelectionChanged="DataGrid_SelectionChanged_1"/>
+
+    </Grid>
+</Window>

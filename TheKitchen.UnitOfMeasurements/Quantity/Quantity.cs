@@ -5,6 +5,8 @@ namespace TheKitchen.UnitOfMeasurements
 {
     public class Quantity : DoubleTypeMeasurementBase<IQuantityUnit>, IMeasurementValue
     {
+        public static string Description = "Units";
+
         public Quantity(IQuantityUnit unit, double unitValue) :
             base(unit, unitValue) { }
 
@@ -37,7 +39,7 @@ namespace TheKitchen.UnitOfMeasurements
 
         public string ToDescription()
         {
-            return "{Value} {Unit}".Inject(new { Value = this.BaseValue, Unit = Litres.Description });
+            return "{Value} {Unit}".Inject(new { Value = this.BaseValue, Unit = Quantity.Description });
         }
 
         public override string ToString()

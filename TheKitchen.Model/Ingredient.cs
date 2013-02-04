@@ -1,4 +1,6 @@
-﻿namespace TheKitchen.Model.Models
+﻿using Phoenix.Core.String;
+
+namespace TheKitchen.Model.Models
 {
     public class Ingredient
     {
@@ -30,7 +32,6 @@
         public string Description { get; set; }
 
         internal PreparationList Preparations = new PreparationList();
-        private string type;
 
         public Preparation SelectedPreparation { get; set; }
 
@@ -44,6 +45,14 @@
             Ingredient i = new Ingredient(this);
             i.SelectedPreparation = Preparations.FindOrAdd(describePrepared);
             return i;
+        }
+
+        public override string ToString()
+        {
+            return "{Name} ({Preparation})".Inject(new { 
+                Name = this.Name,
+                Preparation = this.SelectedPreparation.Name
+            });
         }
     }
 }

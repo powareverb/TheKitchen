@@ -8,7 +8,7 @@ namespace TheKitchen.Tests
     public class BasicTests
     {
         [TestMethod]
-        public void NewMethod()
+        public void Pantry()
         {
             Pantry s = new Pantry();
             Ingredient mince = s.Find("Prime Beef Mince").Ingredient;
@@ -31,9 +31,26 @@ namespace TheKitchen.Tests
         }
 
         [TestMethod]
+        public void RecipeBook()
+        {
+            RecipeBook book = new RecipeBook();
+            book.Title = "Bread Recipies";
+
+            Recipe r = new Recipe();
+            r.Title = "Nachos!";
+            r.Author = "Gavin Jones";
+
+            book.Add(r);
+
+        }
+
+
+        [TestMethod]
         public void Nachos()
         {
             Recipe r = new Recipe();
+            r.Title = "Nachos!";
+            r.Author = "Gavin Jones";
 
             r.IngredientsRequired.Add(Measure.Weight<Grams>(500), "Prime Beef Mince");
             r.IngredientsRequired.Add(Measure.Quantity<Units>(0.5), "Onion", "Chopped");
